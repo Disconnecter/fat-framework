@@ -81,10 +81,6 @@ cp -R -a "${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework" "${CURR_DIR}"
 echo "cleanup build dir"
 
 rm -rf "${BUILD_DIR}"
-rm -rf "${PROJECT_PATH}/Pods"
-rm -rf "${PROJECT_PATH}/Podfile.lock"
-rm -rf "${PROJECT_PATH}/${PROJECT_NAME}.xcodeproj"
-rm -rf "${PROJECT_PATH}/${PROJECT_NAME}.xcworkspace"
 
 fi
 fi
