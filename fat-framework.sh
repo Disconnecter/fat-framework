@@ -37,7 +37,6 @@ xcodebuild -workspace "${PROJECT_PATH}/${PROJECT_NAME}.xcworkspace" \
 -scheme "${PROJECT_NAME}" \
 -configuration Debug \
 -sdk iphonesimulator \
--arch x86_64 \
 ONLY_ACTIVE_ARCH=NO \
 BUILD_DIR="${BUILD_DIR}" \
 clean build 
